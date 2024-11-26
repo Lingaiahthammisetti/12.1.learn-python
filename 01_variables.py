@@ -17,13 +17,13 @@ c =True #true
 
 #Strings
 d ='This is a string'
-e ="This is alos a string"
+e ="This is also a string"
 f ="""
  This is a multi-line string
 """
 
 #Today's weather is nice
-d = 'Today\s weather is nice'
+d = 'Today's weather is nice'
 print(d)
 
 # d = "Today's weather is nice"
