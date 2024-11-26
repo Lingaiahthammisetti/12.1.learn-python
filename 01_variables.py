@@ -23,9 +23,30 @@ f ="""
 """
 
 #Today's weather is nice
-d = 'Today's weather is nice'
+d = 'Today\'s weather is nice'
 print(d)
 
-# d = "Today's weather is nice"
-# print(d)
+d = "Today's weather is nice"
+print(d)
+
+#This is a list
+test_list = ["hello","world","python"]
+print(test_list)
+
+#Tuple
+test_tuple =("hello","world","python")
+print(test_tuple)
+
+#Tuple
+test_dict = {'a':1, 'b':2}
+print(test_dict)
+
+#Set
+#Consider the value is an arbitrary way
+test_set ={'a','b',"abc"}
+print(test_set)
+
+# type() function -> prints the datatype of the variable
+print(type(test_dict))
+print(type(print))
 
