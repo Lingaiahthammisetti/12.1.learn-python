@@ -11,12 +11,10 @@ print(sample_dict[(1, 2, 3, 4)]) #output: 1
 sample_dict = {"1": 1, 2: 4, 3: 9}
 print(sample_dict["1"]) #output: 1
 
-
-
+"""
 # sample_dict = {[1, 2, 3, 4]: 1, 2: 4, 3: 9}
 # print(sample_dict[[1, 2, 3, 4]]) #Error 
 
-"""
 Traceback (most recent call last):
   File "/home/cloudshell-user/python-devops/05_dict.py", line 11, in <module>
     sample_dict = {[1, 2, 3, 4]: 1, 2: 4, 3: 9}
