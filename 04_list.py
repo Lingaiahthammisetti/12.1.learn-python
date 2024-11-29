@@ -7,7 +7,8 @@ print(sample_ele) #output: Terraform
 
 
 sample_ele = sample_list[5]
-print(sample_ele)  #Error
+#print(sample_ele)  
+#Error
 """
 Traceback (most recent call last):
   File "/home/cloudshell-user/python-devops/04_list.py", line 9, in <module>
