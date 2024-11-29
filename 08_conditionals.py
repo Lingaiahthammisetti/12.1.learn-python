@@ -28,6 +28,7 @@ elif user_input > 10:
 else:
     print("User input value is less than 10")
 
+
 # Exception handling: try - except
 try:
     user_input = int(input("Enter a number:"))
