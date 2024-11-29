@@ -7,11 +7,9 @@ this is a multi-line comment
 # Define a variable
 a = 42 # This is a integer variable
 print(a) #output:42
-
 # Float value
 b = 42.345
 print(b) #output:42.345
-
 # Boolean
 c = True 
 print(c) #output:True
