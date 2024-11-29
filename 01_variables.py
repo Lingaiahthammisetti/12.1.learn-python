@@ -1,54 +1,60 @@
-#This is a single line comment.
-"""
-This is a multi-line comment.
-"""
-#Define a variable
-a = 42 # This is a integer variable.
+# This is a single line comment
 
-#Print the value that is scored inside the variable.
-print(a)
+"""
+this is a multi-line comment
+"""
 
-#Float value
+# Define a variable
+a = 42 # This is a integer variable
+print(a) #output:42
+
+# Float value
 b = 42.345
-print(a)
+print(b) #output:42.345
 
-#Boolean
-c =True #true
+# Boolean
+c = True 
+print(c) #output:True
 
-#Strings
-d ='This is a string'
-e ="This is also a string"
-f ="""
- This is a multi-line string
+# Strings
+d = 'This is a string'
+e = "This is also a string"
+f = """
+This is a multi line string
 """
+print(d) #output:This is a string
+print(e) #output:This is also a string
+print(f) #output:This is a multi line string
 
-#Today's weather is nice
+
+# Today's weather is nice
 d = 'Today\'s weather is nice'
-print(d)
+print(d) #output: Today's weather is nice
 
 d = "Today's weather is nice"
-print(d)
+print(d) #output: Today's weather is nice
 
-#This is a list
-test_list = ["hello","world","python"]
-print(test_list)
+# This is a list
+test_list = ["hello", "world", "python"]
+print(test_list) #output: ['hello', 'world', 'python']
 
-#Tuple
-test_tuple =("hello","world","python")
-print(test_tuple)
+# Tuple
+test_tuple = ("hello", "world", "python")
+print(test_tuple) #output: ('hello', 'world', 'python')
 
-#Tuple
-test_dict = {'a':1, 'b':2}
-print(test_dict)
+# Dict
+test_dict = {'a': 1, 'b': 2}
+print(test_dict) #output: {'a': 1, 'b': 2}
 
-#Set
-#Consider the value is an arbitrary way
-test_set ={'a','b',"abc"}
-print(test_set)
+# Set
+# consider the values in an arbitrary way
+test_set = {'a', 'b', "abc"}
+print(test_set)  #output: {'abc', 'a', 'b'}
 
 # type() function -> prints the datatype of the variable
-print(type(test_dict))
-print(type(print))
+print(type(test_dict))  #output: <class 'dict'>
+print(type(print))      #output: <class 'builtin_function_or_method'>
+
 
 # Operations
 # Add
@@ -56,50 +62,53 @@ print(type(print))
 # Multi
 # Divide
 # Integer division
-# Modulo divion
+# Modulo division
 
 # Add
 a = 42
 b = 45.32
 c = a + b
-print(c)
+print(c) #output: 87.32
 
 d = a - b
-print(d)
+print(d) #output: -3.3200000000000003
+
+e = a * b
+print(e) #output: 1903.44
 
 f = 12
 g = 3
-h = f/g
-print(h, type(h))
+h = f / g
+print(h, type(h)) #output:4.0 <class 'float'>
 
-#Integer division
-h = f//g
-print(h)
+# Integer division
+h = f // g 
+print(h) #output: 4
 
-#Modulo division
-i  = f%g
-print(i)
+# Modulo division
+i = f % g
+print(i) #output: 0
 
-#Addition
+# Addition
 a = "42"
 b = "43"
-print(a+b) #concatenation
+print(a + b) #output: 4243
 
 # Power
 a = 10
-print(a**2) #a2
+print(a**2) #output: 100
 
-# Comparision operators
+# Comparison operators
 a = 10
 b = 20
 res = a > b
 res_1 = a < b
 res_2 = a != b
 res_3 = a == b
-print(res, res_1, res_2, res_3)
+print(res, res_1, res_2, res_3) #output:False True True False
 
 # Logical operators
-# AND, OR, NOT
+# AND, NOT, OR
 a = True
 b = False
 
@@ -107,13 +116,4 @@ res = a and b
 res_1 = a or b
 res_2 = not a
 res_3 = not b
-print(res, res_1, res_2, res_3)
-
-
-
-
-
-
-
-
-
+print(res, res_1, res_2, res_3) #output:False True False True
