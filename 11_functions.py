@@ -62,21 +62,21 @@ print(res)
 res = add(1, 2, 4, 5, 6)
 print(res)
 # #****************************************
-# def add(*args, **kwargs):
-#     """
-#     This function performs addition of 2 numbers
-#     """
-#     print(args, kwargs)
+def add(*args, **kwargs):
+    """
+    This function performs addition of 2 numbers
+    """
+    print(args, kwargs)
 
-# res = add(1, 2, 4)
-# print(res)
+res = add(1, 2, 4)
+print(res)
 
-# res = add(1, 2, 4, num1=5, num2=6)
-# print(res)
+res = add(1, 2, 4, num1=5, num2=6)
+print(res)
 
 # # map
 # # filter
-
+# #****************************************
 # # Lambda: inline function
 
 # add_numbers = lambda num1, num2: num1 + num2
