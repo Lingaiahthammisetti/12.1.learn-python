@@ -29,7 +29,7 @@ def add(num_1, num_2, num_3=10):
     res = num_1 + num_2 + num_3
     return res
 
-Call the function
+#Call the function
 res = add(1, 2)
 res = add(num_2=1, num_1=2)
 print(res)
