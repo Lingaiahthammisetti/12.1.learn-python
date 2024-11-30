@@ -36,18 +36,18 @@ print(res)
 # # One user enters 10 numbers and another user enters 100 numbers. Define your function to handle this situation
 # # A: Variable length arguments
 # #****************************************
-# def add(*nums):
-#     """
-#     This function performs addition of 2 numbers
-#     """
-#     res = sum(nums)
-#     return res
+def add(*nums):
+    """
+    This function performs addition of 2 numbers
+    """
+    res = sum(nums)
+    return res
 
-# res = add(1, 2, 4)
-# print(res)
+res = add(1, 2, 4)
+print(res)
 
-# res = add(1, 2, 4, 5, 6)
-# print(res)
+res = add(1, 2, 4, 5, 6)
+print(res)
 # #****************************************
 # def add(num1, num2, *args):
 #     """
